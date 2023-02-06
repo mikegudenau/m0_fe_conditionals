@@ -1,12 +1,11 @@
-let num = 15;
+let num = 41;
 
-
-if (num % 3 === 0 && num % 5 === 0) {
-   console.log('fizzbuzz');
+if (num % 3 === 0 & num % 5 === 0) {
+    console.log('fizzbuzz');
 } else if (num % 5 === 0) {
-   console.log('buzz');
+    console.log('buzz');
+} else if (num % 3 === 0) {
+    console.log('fizz');
 } else {
-   console.log('fizz');
+    console.log(num);
 }
-
-
