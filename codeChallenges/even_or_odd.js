@@ -1,4 +1,4 @@
-let num = 101;
+let num = 55;
 
 if (num % 2 === 0) {
     console.log("even");
