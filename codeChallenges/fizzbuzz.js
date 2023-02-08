@@ -1,6 +1,6 @@
-let num = 41;
+let num = 15;
 
-if (num % 3 === 0 & num % 5 === 0) {
+if (num % 3 === 0 && num % 5 === 0) {
     console.log('fizzbuzz');
 } else if (num % 5 === 0) {
     console.log('buzz');
